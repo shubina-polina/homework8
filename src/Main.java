@@ -47,24 +47,24 @@ public class Main {
         }
         System.out.println();
 // задача 3
-        int[] numbers1 = {1, 2, 3};
-        double[] numbers2 = {1.57, 7.654, 9.986};
-        int[] cats1 = {7, 8, 9};
-        for (int i = numbers1.length - 1; i >= 0; i--) {
-            System.out.print(numbers1[i]);
-            if (i < numbers1.length - 1) ;
+
+
+        for (int i = numbers.length - 1; i >= 0; i--) {
+            System.out.print(numbers[i]);
+            if (i != 0) ;
             System.out.print(", ");
         }
         System.out.println();
-        for (int i = numbers2.length - 1; i >= 0; i--) {
-            System.out.print(numbers2[i]);
-            if (i < numbers2.length - 1) ;
+
+        for (int i = nor.length - 1; i >= 0; i--) {
+            System.out.print(nor[i]);
+            if (i != 0) ;
             System.out.print(", ");
         }
         System.out.println();
-        for (int i = cats1.length - 1; i >= 0; i--) {
-            System.out.print(cats1[i]);
-            if (i < cats1.length - 1) ;
+        for (int i = cat.length - 1; i >= 0; i--) {
+            System.out.print(cat[i]);
+            if (i != 0) ;
             System.out.print(", ");
         }
         System.out.println();
@@ -78,5 +78,6 @@ public class Main {
         System.out.println(Arrays.toString(arr));
     }
 }
+
 
 
