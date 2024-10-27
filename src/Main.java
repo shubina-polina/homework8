@@ -30,42 +30,46 @@ public class Main {
         int[] cat1 = {7, 8, 9};
         for (int i = 0; i < number1.length; i++) {
             System.out.print(number1[i]);
-            if (i < number1.length - 1) ;
-            System.out.print(", ");
+            if (i < number1.length - 1) {
+                System.out.print(", ");
+            }
         }
         System.out.println();
         for (int i = 0; i < number2.length; i++) {
             System.out.print(number2[i]);
-            if (i < number2.length - 1) ;
-            System.out.print(", ");
+            if (i < number2.length - 1) {
+                System.out.print(", ");
+            }
         }
         System.out.println();
         for (int i = 0; i < cat1.length; i++) {
             System.out.print(cat1[i]);
-            if (i < cat1.length - 1) ;
-            System.out.print(", ");
+            if (i < cat1.length - 1) {
+                System.out.print(", ");
+            }
         }
         System.out.println();
 // задача 3
-
-
         for (int i = numbers.length - 1; i >= 0; i--) {
             System.out.print(numbers[i]);
-            if (i != 0) ;
-            System.out.print(", ");
+            if (i != 0) {
+                System.out.print(", ");
+            }
         }
-        System.out.println();
 
+        System.out.println();
         for (int i = nor.length - 1; i >= 0; i--) {
             System.out.print(nor[i]);
-            if (i != 0) ;
-            System.out.print(", ");
+            if (i != 0) {
+                System.out.print(", ");
+            }
         }
         System.out.println();
         for (int i = cat.length - 1; i >= 0; i--) {
             System.out.print(cat[i]);
-            if (i != 0) ;
-            System.out.print(", ");
+            if (i != 0) {
+                System.out.print(", ");
+            }
         }
         System.out.println();
         // задача 4
@@ -76,8 +80,12 @@ public class Main {
             }
         }
         System.out.println(Arrays.toString(arr));
-    }
-}
+                    }
+                }
+
+
+
+
 
 
 
